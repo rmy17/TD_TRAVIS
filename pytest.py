@@ -1,11 +1,8 @@
 from funcScript import *
 from nonfunctScript import *
 
-import unittest
+def test_hello():
+    assert hello("travis") == "Hello travis"
 
-
-class MyTest(unittest.TestCase):
-    def testHelloFunction(self):
-        self.assertEqual(hello("travis"), "Hello travis")
-    def testGoodbyeFunction(self):
-        self.assertEqual(goodbye("travis"), "Goodbye travis")
+def test_goodbye():
+    assert goodbye("travis") == "Goodbye travis"
