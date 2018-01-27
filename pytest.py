@@ -6,3 +6,7 @@ def test_hello():
 
 def test_goodbye():
     assert goodbye("travis") == "Goodbye travis"
+
+    
+test_hello()
+test_goodbye()
