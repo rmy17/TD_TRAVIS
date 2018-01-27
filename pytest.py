@@ -1,4 +1,4 @@
-from funcScript import *
+from functScript import *
 from nonfunctScript import *
 
 def test_hello():
