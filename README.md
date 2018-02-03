@@ -1,6 +1,5 @@
 # TD_TRAVIS
 
 
-[![Build status](https://travis-ci.org/bockp/TD_TRAVIS.svg?master)](https://travis-ci.org/bockp)
 
-repo pour notre TD de test avec Travis, pour notre cours inversée
+repo pour demontrer l'utilité de l'integration continue, utilisant Travis-ci, python et le module pytest.
